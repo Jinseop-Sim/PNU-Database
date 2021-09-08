@@ -44,3 +44,16 @@
   - Management and Retrieval
   
   - SW와 DB의 각 부분들은 순서대로 대응한다.
+
+## Three Layered Structure (Three Schema)
+- Physical Schema
+  - 가장 밑 바닥에 위치하는 파트로, OS에 설치되어 진다.
+  - Real World를 이해하려는 시도
+  - 어떻게 File System에서 Data를 물리적으로 조직할 것인가? ==> DBSM Issue
+- Logical Schema(Conceptual)
+  - Physical Representation과는 독립적으로 구동된다.
+  - Try to formal understand
+  - 어떻게 정보를 이해하고 표현할 것인가 ==> DB Issue
+- Application Schema(External)
+  - Logical Representation을 기반으로 한다.
+  - Application들은 Real World의 Conceptual understanding을 기반으로 Develop된다.
