@@ -1,7 +1,7 @@
 # <p align="center">Database Study</p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/MYSQL-0696D7?style=for-the-badge&logo=mysql&logoColor=yellow">
+<img src="https://img.shields.io/badge/MYSQL-0696D7?style=for-the-badge&logo=mysql&logoColor=skyblue">
 </p>
 <br/>
 
