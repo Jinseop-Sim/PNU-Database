@@ -33,6 +33,7 @@
   - Coding
   - Test
   - Maintenance
+
 ### Database
   - Requirement Analysis
   - Modeling(Formal understanding)
