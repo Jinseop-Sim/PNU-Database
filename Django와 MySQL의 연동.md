@@ -60,7 +60,22 @@
   
   ![image](https://user-images.githubusercontent.com/71700079/142808346-f1a38541-de42-4003-a01a-d645ebcfb198.png)  
   ![image](https://user-images.githubusercontent.com/71700079/142808097-84470318-bd62-4424-ad7a-66d0cdb3ac68.png)  
+
+6. 다음은 Templates를 만들어 주어야 한다.
+  - 먼저 Settings.py 파일에서 Templates에 경로를 추가한다.  
+  
   ![image](https://user-images.githubusercontent.com/71700079/142808322-8c97f7d5-7297-4d9f-935d-5442351cbe89.png)  
+  ![image](https://user-images.githubusercontent.com/71700079/142808839-2149d5cc-d43e-4d4e-acfa-b63ba0d72c71.png)  
+  
+  - 위와 같이 myApp 내에 templates/myApp/index.html 파일을 추가한다. 이것이 이제 웹페이지의 메인이 될 파일이다.  
+
+7. 마지막으로 views.py의 렌더링 작업과 URLs.py의 주소 작업을 한다.  
+  
+  ![image](https://user-images.githubusercontent.com/71700079/142809116-07378ced-aab2-4b39-a2bd-540e41364c2f.png)  
+  ![image](https://user-images.githubusercontent.com/71700079/142809309-c880a5fc-82e4-4237-bcc4-85aa791000bd.png)  
+  
+  - 이제 ```python manage.py runserver``` 명령어를 통해 제대로 연동이 되었는지 확인하도록 하자.
+  
 
 
 
