@@ -56,6 +56,11 @@
   ![image](https://user-images.githubusercontent.com/71700079/142803771-97f30f16-bff0-495b-ba1e-f4d3ecf07643.png)  
   
   - inspectdb 명령어를 이용하면, 이렇게 mySQL에서 만든 DB의 Table이 나온다.
+  - 이 Database를 testDB의 models.py 파일에 집어넣은 후 다시 Migration을 진행한다.  
+  
+  ![image](https://user-images.githubusercontent.com/71700079/142808346-f1a38541-de42-4003-a01a-d645ebcfb198.png)  
+  ![image](https://user-images.githubusercontent.com/71700079/142808097-84470318-bd62-4424-ad7a-66d0cdb3ac68.png)  
+  ![image](https://user-images.githubusercontent.com/71700079/142808322-8c97f7d5-7297-4d9f-935d-5442351cbe89.png)  
 
 
 
