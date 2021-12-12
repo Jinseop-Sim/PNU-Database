@@ -22,10 +22,10 @@ WHERE Profinfo.county = Studinfo.county;
 ```SQL
 SELECT students.name, TOP_three.city, TOP_three.patients_number
 FROM (SELECT city, COUNT(city) AS patients_number
-	  FROM covid
-	  GROUP BY city
-	  ORDER BY patients_number DESC
-	  LIMIT 3) TOP_three, students, counties
+      FROM covid
+      GROUP BY city   
+      ORDER BY patients_number DESC
+      LIMIT 3) TOP_three, students, counties
 WHERE counties.city = TOP_three.city AND students.county = counties.countyName
 ORDER BY patients_number DESC;
 ```
