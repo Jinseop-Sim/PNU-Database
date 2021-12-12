@@ -1,4 +1,4 @@
-# Group By Practice & Aggragation
+## Group By Practice & Aggragation
 
 ```SQL
 SELECT Profinfo.name, Studinfo.name
