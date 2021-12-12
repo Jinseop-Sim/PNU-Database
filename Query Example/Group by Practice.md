@@ -20,12 +20,13 @@ WHERE Profinfo.county = Studinfo.county;
 > COVID-19 감염자의 수가 가장 많은 도시 3곳을 뽑아,  
 > 그 도시에 사는 학생을 출력한다.  
 ```SQL
-SELECT students.name, TOP_three.city, TOP_three.patients_number
-FROM (SELECT city, COUNT(city) AS patients_number
-      FROM covid
-      GROUP BY city   
-      ORDER BY patients_number DESC
-      LIMIT 3) TOP_three, students, counties
-WHERE counties.city = TOP_three.city AND students.county = counties.countyName
-ORDER BY patients_number DESC;
+SELECT final_table.name, final_table.city
+FROM (SELECT students.name, TOP_three.city, TOP_three.patients_number
+      FROM (SELECT city, COUNT(city) AS patients_number
+	    FROM covid
+	    GROUP BY city
+	    ORDER BY patients_number DESC
+	    LIMIT 3) TOP_three, students, counties
+      WHERE counties.city = TOP_three.city AND students.county = counties.countyName
+      ORDER BY patients_number DESC) final_table
 ```
