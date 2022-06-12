@@ -26,6 +26,9 @@ print("T-statistic : ", result.statistic, "P-value : ", result.pvalue) # Two-sid
 
 result_one = stats.ttest_1samp(sample, null_Hypo_Mean, alternative = 'less') # One-Sided Test
 print("T-statistic : ", result_one.statistic, "P-value : ", result_one.pvalue) # result.pvalue/2 == result_one.pvalue
+
+# Base Code from,
+# Class from PNU Data Science, by Professor Myeon ho Lee
 ```
 
 ## Two Sample T-test
@@ -40,6 +43,9 @@ val_female = data['SCORE1'][data['Gender'] == 'Female']
 
 stats.ttest_ind(val_male, val_female)
 stats.ttest_ind(val_male, val_female, equal_var = False) # Not equal Variance ==> Welch's Ttest
+
+# Base Code from,
+# Class from PNU Data Science, by Professor Myeon ho Lee
 ```
 
 ## One Table Chi-square Test
@@ -53,6 +59,9 @@ val_ob = np.array([15, 12, 9, 9, 15]) # Observed Data
 val_ex = np.array([12, 12, 12, 12, 12]) # Expected Data
 
 stats.chisquare(val_ob, val_ex)
+
+# Base Code from,
+# Class from PNU Data Science, by Professor Myeon ho Lee
 ```
 
 ## Two Table Chi-square Test
@@ -67,5 +76,8 @@ val_ob = np.array([6, 10, 11, 9, 7, 5, 9, 4, 7, 8, 5, 8, 5, 6]) # Observed Data
 val_ex = np.array([8, 8, 10, 10, 6, 6, 6.5, 6.5, 7.5, 7.5, 6.5, 6.5, 5.5, 5.5]) # Expected Data, # of Male == # of Female
 
 stats.chisquare(val_ob, val_ex, ddof = 7) # Delta Degree of Freedom = i + j - 2 (Using for 2-table Chi-square)
+
+# Base Code from,
+# Class from PNU Data Science, by Professor Myeon ho Lee
 ```  
 ![image](https://user-images.githubusercontent.com/71700079/173227043-c22ae0a2-2b61-4e06-8f84-649334a75d91.png)
