@@ -104,7 +104,8 @@ print("Accuracy : ", metrics.accuracy_score(Y_test, Y_pred)) # Accuracy = TP + T
 
 # Base Code from,
 # Class from PNU Data Science, by Professor Myeon ho Lee
-```
+```  
+![image](https://user-images.githubusercontent.com/71700079/173224976-29db1af8-a081-4dbf-ba95-bba11faf4e89.png)  
 
 ## Multi-Variable Logistic Regression
 - Logistic Regression
@@ -133,4 +134,5 @@ print("Accuracy : ", metrics.accuracy_score(Y_test, Y_pred)) # Accuracy = TP + T
 
 # Base Code from,
 # Class from PNU Data Science, by Professor Myeon ho Lee
-```
+```  
+![image](https://user-images.githubusercontent.com/71700079/173224934-8b31a5d0-b62d-4c31-a6ca-2bdc13920796.png)  
